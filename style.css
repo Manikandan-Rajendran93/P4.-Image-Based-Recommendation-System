@@ -1,0 +1,75 @@
+    .block-container {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        max-width: 90%;
+    }
+
+    [data-testid="stMetric"] {
+        background-color: #1E293B;
+        padding: 20px;
+        border-radius: 12px;
+        border-left: 5px solid #3B82F6;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        color: #F8FAFC;
+    }
+
+    [data-testid="stMetricLabel"] > div p {
+        font-size: 19px !important;
+        color: #94A3B8 !important;
+        line-height: 1.2 !important;
+        margin: 0;
+    }
+
+    [data-testid="stMetricLabel"] > div {
+        white-space: normal !important;
+        overflow-wrap: break-word !important;
+        min-height: 2.5rem;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    [data-testid="stMetricValue"] {
+        color: #FFFFFF !important;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    [data-testid="stDataFrame"] {
+        border: 1px solid #475569 !important;
+        border-radius: 10px !important;
+        padding: 8px;
+        background-color: #0F172A;
+    }
+
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 5px;
+    }
+    .stTabs [data-baseweb="tab"] {
+        border: 1px solid #334155 !important;
+        border-radius: 8px 8px 0px 0px !important;
+        padding: 8px 16px !important;
+        background-color: #1E293B !important;
+    }
+            
+    .main-header {
+        font-size: 40px !important;
+        font-weight: 600;
+        color: #60A5FA;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+    .custom-subheader {
+        font-family: 'Trebuchet MS', sans-serif;
+        color: #60A5FA;
+        font-size: 25px !important;
+        font-weight: bold;
+        border-bottom: 2px solid #f0f2f6;
+        padding-bottom: 5px;
+    }
+    .custom-text {
+        color: #94A3B8;
+        font-weight: bold;
+        font-size: 20px !important;
+    }
