@@ -1,4 +1,3 @@
 abo_images/
 resnet50.ipynb
-abo_images/*
-!abo_images/.gitkeep
+resnet50_feature_extractor.pt
